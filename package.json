@@ -6,6 +6,11 @@
   "scripts": {
     "test": "jest"
   },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JoanPedro/Delivery-Test.git"
@@ -18,6 +23,7 @@
   },
   "homepage": "https://github.com/JoanPedro/Delivery-Test#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.3",
     "husky": "^4.2.5",
     "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
