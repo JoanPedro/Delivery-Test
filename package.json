@@ -1,0 +1,20 @@
+{
+  "name": "Delivery-Test",
+  "version": "1.0.0",
+  "description": "Delivery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoanPedro/Delivery-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoanPedro/Delivery-Test/issues"
+  },
+  "homepage": "https://github.com/JoanPedro/Delivery-Test#readme"
+}
