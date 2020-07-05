@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JoanPedro/Delivery-Test/issues"
   },
-  "homepage": "https://github.com/JoanPedro/Delivery-Test#readme"
+  "homepage": "https://github.com/JoanPedro/Delivery-Test#readme",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
 }
