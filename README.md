@@ -1,7 +1,10 @@
 # Delivery Test
 - DeliveryMuch
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+<p align="center">
+    <a href="https://github.com/JoanPedro/Delivery-Test//tree/master"> 
+      <img alt="Backend" src="https://img.shields.io/badge/Backend-Finalizado-success">
+    </a>
+</p>
 
 ## Como iniciar o projeto!
 
