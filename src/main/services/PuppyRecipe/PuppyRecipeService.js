@@ -17,13 +17,13 @@ module.exports = class PuppyRecipe {
       if (recipes.data.results.length === 0) {
         return HttpResponse.NotFoundError('This recipe can not be found!')
       }
-      console.log(typeof recipes)
+
       return {
         result: recipes.data.results,
         stuffs: sorted
       }
     } catch (error) {
-      return HttpResponse.NotFoundError('Stuff must be provided')
+      return HttpResponse.serverError()
     }
   }
 }
