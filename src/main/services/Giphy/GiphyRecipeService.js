@@ -7,7 +7,9 @@ module.exports = class GiphyRecipe {
     try {
       const URL = `https://api.giphy.com/v1/gifs/search?api_key=${env.giphyKey}&q=${find}&limit=1`
       const giphy = await axios.get(URL)
-
+      if (giphy.message) {
+        return HttpResponse.unauthorizedError()
+      }
       if (giphy.data.data.length === 0) {
         return HttpResponse.NotFoundError('This gif can not be found!')
       }
