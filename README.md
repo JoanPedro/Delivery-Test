@@ -1,31 +1,30 @@
-<h1> Delivery-Test </h1>
-- DeliveryMuch 
+# Delivery Test
+- DeliveryMuch
 
-<h1> Como iniciar o projeto </h1>
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-<h3> Clone do Repositório </h3>
-`https://github.com/JoanPedro/Delivery-Test.git`
+## Como iniciar o projeto!
 
-<h3> Instalar as dependências </h3>
-`npm install`
-
-<h2> Testes </h2>
-1. Geral: `npm test`
-2. CI: `test:ci`
-
-<h2> Inicialização </h2>
-1. `npm start`
+### - Clone do Repositório
+```https://github.com/JoanPedro/Delivery-Test.git```
+### - Instalar as dependências
+```npm install```
+## Testes
+1. Geral: ```npm test```
+2. CI: ```test:ci```
+## Inicialização
+1. ```npm start```
    ou
-2. Possuir o Docker e Docker-compose instalado
-   1. `docker-compose up -d`
-
+2. Possuir o Docker e Docker-compose instalado:
+```docker-compose up -d```
 # Endpoint da aplicação:
-A API possui apenas um endpoint, que deve respeitar a seguinte chamada:
-`http://localhost:5858/recipes/?i={ingrediente_1},{ingrediente_2},{ingrediente_3}`
-OBS. A API deve receber como parâmetro um conjunto de ingredientes (máximo 3).
+#### A API possui apenas um endpoint, que deve respeitar a seguinte chamada:
 
-A resposta dessa requisição é do tipo:
-`{
+```http://localhost:5858/recipes/?i={ingrediente_1},{ingrediente_2},{ingrediente_3}```
+###### OBS. A API deve receber como parâmetro um conjunto de ingredientes (máximo 3).
+#### A resposta dessa requisição é do tipo:
+```
+{
 	"keywords": ["onion", "tomato"],
 	"recipes": [{
 		"title": "Greek Omelet with Feta",
@@ -39,6 +38,5 @@ A resposta dessa requisição é do tipo:
 		"gif":"https://media.giphy.com/media/I3eVhMpz8hns4/giphy.gif"
 	   }
 	]
-}`
-
-
+}
+```
